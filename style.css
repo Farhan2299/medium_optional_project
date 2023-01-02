@@ -1,0 +1,64 @@
+body {
+    display: grid;
+    margin-left: 300px;
+    background-color: beige
+}
+#top_nav_bar {
+background-color: green;
+color: white;
+display: flex;
+justify-content: space-around;
+margin-right: 640px;
+}
+
+#home, #about, #contact, #products {
+    display: inline;
+    justify-content: space-around;
+    margin-right: 60px;
+}
+
+#owner_face_picture {
+    float: left;
+    margin-right: 20px;
+}
+
+#first_paragraph {
+    margin-top: -5px;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+ol {
+    margin-left: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+#footer1 {
+    color: sandybrown;
+}
+
+#our_top_products_list {
+    margin-bottom: -20px;
+    float: left;
+}
+
+#product1, #product2, #product3 {
+    display: block;
+    margin: 10px;
+}
+
+#ways_to_order {
+    margin-top: -100px;
+}
+
+#product_images {
+    position: relative; left:200px; bottom:90px;
+    display: grid;
+    grid-template-columns: 0.05fr 0.05fr 1fr;
+}
